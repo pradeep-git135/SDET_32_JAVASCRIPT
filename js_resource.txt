@@ -1,0 +1,144 @@
+Javascript:
+ #]javascript is an interpreted programming and as well as scripting language 
+ #]javascript is a dynamically_typed language
+			staticaly typed :
+						int a = 1;  
+			dynamically_typed 
+						a = "Pradeep";
+						a = 10;
+ #]javascript is mainly used for client side validation
+ #]javascript is used to develop dynamic/interactive web pages]
+
+#]History of Javascript:
+  In 1995 Brenden_Eich developed javascript
+  Company Netscape product NetscapeCommunicator[MozillaFirefox]
+  EcmaScript/PlainScript/VanillaScript
+  JavaScript in 1996
+
+#]Libraries developed by using Javascript:
+		1]Jquery 2]Load# 3]Bootstrap...
+
+#]Frameworks developed by using Javascript:
+ 	1]NodeJS ==> [javascript + enhancements] ==> used for server side programming
+	2]ReactJS==> [javascript + enhancements] ==> used to develop web applications
+	3]ReactNative==> [javascript + enhancements]==> used to develop mobile applications
+	4]ElectronJs==> [javascript + enhancements]==> used to develop standalone applications
+	5]AngulaJS==>[javascript + enhancements]==> used to develop singlePage application
+	6]Tensorflow==>[javascript + enhancements]==>used to develop vr applications 
+
+#]Execution Of Javascript
+	1]On_browser: embed your javascript code wit html and execute in the browser
+			embedding:
+				1]inline embedding
+				2]external embedding
+
+  2] off_browser : we will make use of nodeJS to ececute our javascript code 
+
+#]Tokens : 
+		it is a smallest unit of code is called tokens
+	1] keywords:
+			it is a developer defined word i.e, it has a predefined meaning and it is case in sensitive
+				in javascript there are more than 35 keywords e.g. var, let, const, function etc...
+	2] Identifiers :
+			it is a user defined word which is used to store the data
+			there are some rules to use identifiers
+				* should not use keyword as an identifier
+				* it may ba alphanumeric but it shouldn't start with numeric
+				* should not consist of special charecters expect $ and _
+	3] literals:
+			literals are nothing but actual values you store in the memory
+	4] operators:
+				operators may be of any kind that perform on operands
+	5] separetors:
+				used to separate the blok in code e.g. (;, {}, (), : )
+
+#How to declare a veriable in javascript:
+		var a;  //declaration
+		a = 5;  //initialization
+		console.log(a) //utilization
+
+    var a = 5;  //declaration and initialization in single step
+
+#DataTypes:
+	1] premitive
+			*Number
+			*String
+			*Boolean
+			*undefined
+			*null
+#]Equality and Strict_Equality(== and ===):
+		== : checks for values of operands
+		=== : check for values and datatype of the operands
+	2] non premitive:
+			*object
+			*Array
+			*String
+			*Date
+			*Math
+#]FlowControlStatements:
+	1]conditional statement[if, if_else, if_esle_if, switch]
+	2]looping statements[for, while, do_while, for_in, for_of]
+			
+		
+#] functions:
+		block of code which performs specific task is called function, which offers a reuseability
+
+#different ways of creating a function in javascript:
+	1] standard function/ function declaration
+			syntax: 
+ 					keyword ref_name (parameters){
+							//statement block
+					}
+					ref_name (arguments)
+				
+					function demo(a,b){
+							log(a, b)
+							//statement block
+					}
+					demo(10, "pradeep")
+			
+					
+	2] function expression
+			syntax: 
+ 					let ref_name = keyword  (parameters){
+											//statement block
+										}
+					ref_name (arguments)
+				
+					let demo = function (a,b){
+									log(a, b)
+									//statement block
+								}
+					demo(10, "pradeep")
+	3] immediatly invocable function:[(declare)(invoke)]
+					(keyword  (parameters){
+						//statement block
+					})(arguments)
+	4] arrow function:
+				let ref_name = (parameters) => {//statement block}
+
+
+#]callback functions:
+		they are the functions which can be passed as an argument to the other function and get 
+		invoked in the other function and even returned from the other function is called callback function
+
+#] programm execution in memory:
+	
+
+#] closure Property Of Function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
