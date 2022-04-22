@@ -1,3 +1,4 @@
+
 Javascript:
  #]javascript is an interpreted programming and as well as scripting language 
  #]javascript is a dynamically_typed language
@@ -123,10 +124,23 @@ Javascript:
 		invoked in the other function and even returned from the other function is called callback function
 
 #] programm execution in memory:
+
+#]function execution in memory:
 	
 
-#] closure Property Of Function
+#] closure Property Of Function:
+	function scope along with its lexical environment togeather forms a closure
+	
+#] objects:
+	an entity having state and behevior is called object, even javascript object has states and beheviors
 
+#] there are different ways of creating an object in javascript:
+
+ 	1] objectLiteral syntax
+	2] new Object Keyword
+	3] object.create()
+	4] constrcuter function
+	5] class
 
 
 
