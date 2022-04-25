@@ -142,7 +142,15 @@ Javascript:
 	4] constrcuter function
 	5] class
 
+#] this Keyword:
 
+#] inbuilt methods:
+		1] call()
+		2] bind()
+		3] apply()
+		
+	these built_in methods are used along with the functions, no mater whether the function is declared in global 
+	levell or inside any object, used to set the value of this keyword
 
 
 
