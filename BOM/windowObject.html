@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>windowObject</title>
+</head>
+<body>
+    <p id="p1">the
+        demo
+             window
+                     object </p>
+
+        <Script>
+            let p = document.getElementById("p1")
+        //    document.write("innerHeight of the window "+window.innerHeight)
+        //    document.write("innerWidth of the window "+window.innerWidth)
+        //    document.write("outerHeight of the window "+window.outerHeight)
+        //    document.write("outerWidth of the window "+window.outerWidth)
+
+        window.addEventListener("resize",()=>{
+            p.innerText ="innerHeight of the window "+window.innerHeight+"  "+"innerWidth of the window "+window.innerWidth
+            +"  "+"outerHeight of the window "+window.outerHeight+"  "+"outerWidth of the window "+window.outerWidth
+        })
+
+        // window.alert("this alert is from demo window ")
+        
+        // alert("this alert is without using window")
+
+        // confirm("please confirm the request")
+
+        // let key = prompt("enter your access key ")
+        // console.log(key);
+
+        let obj = window.open("https://www.flipkart.com")
+
+        setTimeout(() => {
+            obj.close()
+        }, 3000);
+
+        </Script>
+    
+</body>
+</html>

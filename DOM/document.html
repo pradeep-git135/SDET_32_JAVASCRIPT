@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DocumentObject</title>
+</head>
+<body>
+    <h1 id="qsp", class="qs">Qspider</h1>
+    <h1 id="jsp", class="js">jspiders</h1>
+    <h1 id="psp", class="ps">pyspiders</h1>
+    <h1 id="ty", class="ty">TestYantra</h1>
+    email : <input id = "email" type="text" disabled>
+</body>
+
+<script>
+    // document.getElementById("email").value = "pradeep"
+
+    // console.log("=============================="+document.getElementById("psp").getAttribute("class"));
+
+    // document.getElementById("ty").setAttribute("class", "TY") 
+
+    // console.log("******************************************8"+document.getElementById("ty").getAttribute("class"));
+
+
+
+    let qsp = document.querySelector("#qsp")   //#==> id and . ==> class and = ==> linktext and *= ==> partialLinktext
+    console.log(qsp);
+    console.log(qsp.textContent);
+    qsp.style.color = "red"
+    qsp.style.fontSize = "50px"
+    let jsp = document.querySelectorAll(".js")
+    console.log(jsp);
+
+    let amazon = document.createElement("a")
+    amazon.href = "https://www.amazon.com"
+    amazon.textContent = "Amazon"
+    amazon.style.fontSize = "20px"
+    amazon.style.textDecoration = "none"
+
+    document.body.appendChild(amazon)
+
+    // document.body.insertBefore( amazon, document.getElementById("jsp"))
+
+    // document.body.removeChild(amazon)
+
+    // amazon.addEventListener("mouseover",()=>{
+    //     alert("you are hovering on amazon link")
+    // })
+
+    // amazon.addEventListener("mouseout",()=>{
+    //     alert("you are out on amazon link")
+    // })
+
+    // qsp.addEventListener("click",()=>{
+    //     alert("you clicked qsp")
+    // })
+
+
+
+
+
+</script>
+</html>

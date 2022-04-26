@@ -40,7 +40,11 @@
 //     console.log(element);
 // }
 
-let arr = [1, 11, 111, 10, 100,50, 500, 30, 300, 40, 20]
+let arr = [1, 11, 111, 10, 100,50, 500, 30, 300, 40, 20, 40]
+
+// console.log(arr.lastIndexOf(40,10));  //9
+// join()==>Adds all the elements of an array into a string, separated by the specified separator string.
+// console.log((arr.join()));
 
 
 //concat
@@ -138,15 +142,25 @@ let Amazon = [
     {productName : "RealmeNeo3", poductPrice : 30000},
     {productName : "Iphone12ProMax", poductPrice : 121000}
 ]
+console.log(Amazon.reduce((countArray, element)=>{
+    if (!(countArray[element.productName])) {
+        countArray[element.productName] = 1
+    }
+    else{
+        countArray[element.productName]++
+    }
+    return countArray
+}, {}));
+
 // console.log(Amazon.filter((element)=>{
 //     return element.poductPrice > 30000
 // })
 // );
 
-console.log(Amazon.reduce((obj_ref, element)=>{
-    // let count = 0;
-    if (element.poductPrice > 30000) { 
-         obj_ref[element.productName]  = element.poductPrice                     //{productCount : 2}
-    }
-    return obj_ref
-}, {}));
+// console.log(Amazon.reduce((obj_ref, element)=>{
+//     // let count = 0;
+//     if (element.poductPrice > 30000) { 
+//          obj_ref[element.productName]  = element.poductPrice                     //{productCount : 2}
+//     }
+//     return obj_ref
+// }, {}));
