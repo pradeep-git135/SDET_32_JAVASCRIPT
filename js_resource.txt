@@ -218,7 +218,10 @@ objects of window;
 	click,dblclick, mouseover, mouseout, resize...
 	
 	
+#]ES6 features:
 
+	*] let and const
+	
 
 
 
